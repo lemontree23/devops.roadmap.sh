@@ -2,10 +2,6 @@
 
 This repository contains my solutions and work for various DevOps projects, ranging from beginner to advanced levels. These projects are based on the roadmap.sh DevOps project ideas.
 
-## Project Structure
-
-Each project is contained in its own directory under the `projects/` folder.
-
 ## Projects List
 
 ### Beginner Projects
@@ -37,14 +33,6 @@ Each project is contained in its own directory under the `projects/` folder.
 2. Prometheus and Grafana
 3. Multi-Service Application
 4. Service Discovery
-
-## Getting Started
-
-To explore a specific project:
-
-1. Navigate to the project's directory in the `projects/` folder.
-2. Read the project-specific README for details and instructions.
-3. Examine the code and configurations.
 
 ## Acknowledgments
 
