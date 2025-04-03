@@ -1,6 +1,1 @@
-https://roadmap.sh/projects/nginx-log-analyser
-
-```shell
-chmod +x log.sh
-./log.sh
-```
+[Nginx Log Analyser](nginx-log-analyser/)
