@@ -13,10 +13,12 @@ printf "Top 5 IP addresses with the most requests:\n"
 awk '{print $1}' $FILE | sort | uniq -c | sort -nr | head -n${COUNT} | awk -F" " '{print $2 " - " $1 " requests"}'
 printf "\n"
 
+#top paths
 printf "Top 5 most requested paths:\n"
 awk '{print $7}' $FILE | sort | uniq -c | sort -nr | head -n${COUNT} | awk -F" " '{print $2 " - " $1 " requests"}'
 printf "\n"
 
+#top codes
 printf "Top 5 response status codes:\n"
 awk '{print $9}' $FILE | sort | uniq -c | sort -nr | head -n${COUNT} | awk -F" " '{print $2 " - " $1 " requests"}'
 printf "\n"
