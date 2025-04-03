@@ -15,7 +15,7 @@ This repository contains my solutions and work for various DevOps projects, rang
 7. Basic DNS Setup
 8. Simple Monitoring
 9. Dummy Systemd Service
-10. Basic Dockerfile
+10. [Basic Dockerfile](https://roadmap.sh/projects/basic-dockerfile) ✅
 11. EC2 Instance
 
 ### Intermediate Projects
